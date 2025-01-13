@@ -7,13 +7,9 @@ This project implements an 8-point Fast Fourier Transform (FFT) algorithm using 
 
 ## Features
 - Fully synthesizable HLS design.
-- Optimized for low latency using pipelining and loop unrolling.
 - Verified against Python-generated reference results.
 
 ## Getting Started
 1. Clone the repository and open the project in Vivado HLS.
 2. Run the provided scripts to synthesize the design and generate hardware.
 
-## Results
-- Resource utilization: BRAM = 2, DSP = 4.
-- Maximum clock frequency: 200 MHz.
